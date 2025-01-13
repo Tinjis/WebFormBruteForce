@@ -11,8 +11,8 @@ python3 brute_force_tool.py <target_url> <usernames> <passwords_file> <needle> [
 ```
 
 Where:
-- `<target_url>`: The URL of the login page (e.g., `http://example.com/login`).
-- `<usernames>`: A comma-separated list of usernames (e.g., `admin,user,guest`).
+- `<target_url>`: The URL of the login page (For example: `http://example.com/login`).
+- `<usernames>`: A comma-separated list of usernames (For example: `admin,user,guest`).
 - `<passwords_file>`: The path to the file containing passwords to attempt (For example: `passwords.txt`).
 - `<needle>`: A string in the response page that indicates a successful login (For example: `Welcome back`).
 - `--delay <seconds>` (Optional): The delay between requests to avoid overwhelming the server (For example: `--delay 1` for a 1-second delay).
