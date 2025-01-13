@@ -1,5 +1,5 @@
 ## Features
-- Multi-user brute-forcing: Test multiple usernames against a target.
+- Multi-user brute-forcing: Test multiple usernames against a target WebApp.
 - Supports custom password wordlists.
 - Lightweight and easy-to-use design.
 - Real-time attempt tracking for better visibility.
@@ -19,5 +19,5 @@ Where:
 
 ### **Example**:
 ```bash
-python3 brute_force_tool.py http://example.com/login admin,user,guest passwords.txt "Welcome back" --delay 2
+python3 WebForce.py http://example.com/login admin,user,guest passwords.txt "Welcome back" --delay 2
 ```
