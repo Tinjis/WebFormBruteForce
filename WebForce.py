@@ -30,7 +30,7 @@ if __name__ == "__main__":
     parser.add_argument("target", help="Target URL of the login form")
     parser.add_argument("usernames", help="Comma-separated list of usernames to try")
     parser.add_argument("passwords_file", help="Path to the password file")
-    parser.add_argument("needle", help="Text in the HTML to identify successful login")
+    parser.add_argument("needle", help="Text that identify successful login")
     parser.add_argument("--delay", type=float, default=0, help="Delay between requests (in seconds)")
 
     args = parser.parse_args()
